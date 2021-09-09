@@ -44,7 +44,7 @@ function playgame() {
                 computerhand.src = `pics/${computerchoice}.png`;
                 winner(this.textContent, computerchoice);
 
-            },1908);
+            },1600);
 
             //calling the winner function
         });
