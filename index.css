@@ -1,0 +1,89 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: 'verdana';
+}
+main{
+    /* display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center; */
+    height: 100vh;
+    width: 100%;
+    background-color: blueviolet;
+}
+
+.score{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 10px 0px;
+}
+
+.score h1{
+    color: white;
+}
+
+.intro{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    height: 80vh;
+    /* display: none; */
+}
+
+.intro h1{
+    text-align: center;
+}
+
+.playbtn, .choicebtn button{
+    border: none;
+    font-size: 25px;
+    padding: 5px 10px;
+    color: white;
+    background-color: #b32e00;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+/* game starts */
+
+.game{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    height: 80vh;
+    /* opacity: 0; */
+    display: none;
+}
+.hand{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 100%;
+}
+.phand{
+    transform: rotateY(180deg);
+}
+
+.choicebtn{
+    display: flex;
+    justify-content: space-evenly;
+    width: 100%;
+}
+
+/* #reset{
+    border: none;
+    font-size: 25px;
+    padding: 5px 10px;
+    color: white;
+    background-color: grey;
+    border-radius: 4px;
+    cursor: pointer;
+    width: 100%;
+    text-align: center;
+    margin-top: 30px;
+} */
